@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
-    <Folder Include="UseCases\Courses\Commands\ModifyCourse\" />
     <Folder Include="UseCases\Courses\Commands\" />
     <Folder Include="UseCases\Courses\Commands\RegisterCourse\" />
   </ItemGroup>

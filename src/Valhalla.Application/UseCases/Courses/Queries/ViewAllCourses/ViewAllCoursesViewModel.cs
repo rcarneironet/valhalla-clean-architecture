@@ -5,6 +5,6 @@ namespace Valhalla.Application.UseCases.Courses.Queries.ViewAllCourses
 {
     public class ViewAllCoursesViewModel
     {
-        public IList<Course> Courses { get; set; }
+        public IEnumerable<Course> Courses { get; set; }
     }
 }

@@ -35,6 +35,7 @@ namespace Valhalla.Web
 
             //CQRS - Queries
             services.AddMediatR(typeof(ViewAllCoursesQueryHandler).GetTypeInfo().Assembly);
+            services.AddMediatR(typeof(ViewAllCoursesDapperQueryHandler).GetTypeInfo().Assembly);            
 
             services.AddDbContext<IValhallaContext, ValhallaContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DbConnection")));
