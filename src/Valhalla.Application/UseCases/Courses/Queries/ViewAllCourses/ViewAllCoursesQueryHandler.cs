@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
 using Valhalla.Application.Abstractions.EntityFramework;
+using Valhalla.Domain.Courses;
 
 namespace Valhalla.Application.UseCases.Courses.Queries.ViewAllCourses
 {
@@ -28,7 +29,7 @@ namespace Valhalla.Application.UseCases.Courses.Queries.ViewAllCourses
 
             return new ViewAllCoursesViewModel
             {
-                Courses = await _context.Course.ProjectTo<CourseListViewModel>(_mapper.ConfigurationProvider)
+                Courses = await _context.Course
                 .ToListAsync(cancellationToken)
             };
         }

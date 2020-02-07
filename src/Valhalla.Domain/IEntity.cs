@@ -6,6 +6,6 @@ namespace Valhalla.Domain
     {
         Guid Id { get; }
         DateTime Created { get; }
-        DateTime Updated { get; }
+        DateTime? Updated { get; }
     }
 }

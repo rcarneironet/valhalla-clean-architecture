@@ -1,9 +1,10 @@
 ﻿using System.Collections.Generic;
+using Valhalla.Domain.Courses;
 
 namespace Valhalla.Application.UseCases.Courses.Queries.ViewAllCourses
 {
     public class ViewAllCoursesViewModel
     {
-        public IList<CourseListViewModel> Courses { get; set; }
+        public IList<Course> Courses { get; set; }
     }
 }

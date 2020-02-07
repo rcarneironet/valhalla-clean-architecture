@@ -2,13 +2,16 @@
 
 namespace Valhalla.Domain.Courses
 {
-    public sealed class Course : IEntity
+    public class Course : IEntity
     {
         public Guid Id { get; private set; }
         public string Name { get; private set; }
         public DateTime Created { get; private set; }
-        public DateTime Updated { get; private set; }
+        public DateTime? Updated { get; private set; }
 
+        public Course()
+        {
+        }
         public void Register(string name)
         {
             Id = Guid.NewGuid();
