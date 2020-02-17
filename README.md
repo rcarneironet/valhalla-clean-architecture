@@ -14,7 +14,7 @@ O foco é ter um estudo de caso e uma arquitetura base onde você consiga entend
 
 ### Domínio (Domain)
 
-Essa camada é responsável por todas as suas entidades, enumerações, exceçÕes, abstrações (interfaces por exemplo), tipos e lógicas específicas ao seu domínio.
+Essa camada é responsável por todas as suas entidades, enumerações, exceções, abstrações (interfaces por exemplo), tipos e lógicas específicas ao seu domínio.
 
 ### Aplicação (Application)
 
