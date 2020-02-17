@@ -33,3 +33,7 @@ Essa camada é responsável pela interface de usuário, no caso desse projeto te
 ## Suporte
 
 Se você quiser participar ou encontrar problemas, abra um issue [aqui](https://github.com/rcarneironet/valhalla-clean-architecture/issues/new).
+
+Se de alguma forma o projeto foi útil para você ou sua empresa, dê uma estrela e siga o projeto!
+
+
